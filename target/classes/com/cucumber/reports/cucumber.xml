@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="16.790497">
+<testcase classname="Facebook application automation script" name="Verify the user username" time="8.238232">
+<system-out><![CDATA[Given User launch the facebook application..................................passed
+And User enter the "Divya" in the username feild............................passed
+And User enter the "1234" in the password feild.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook application automation script" name="Verify the user username 2" time="5.270071">
+<system-out><![CDATA[Given User launch the facebook application..................................passed
+And User enter the "Sneha" in the username feild............................passed
+And User enter the "234567890" in the password feild........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook application automation script" name="Verify the user username 3" time="3.282194">
+<system-out><![CDATA[Given User launch the facebook application..................................passed
+And User enter the "Deepika" in the username feild..........................passed
+And User enter the "234567" in the password feild...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

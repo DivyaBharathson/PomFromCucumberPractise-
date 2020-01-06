@@ -1,0 +1,321 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User launch the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7472827500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the facebook application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_facebook_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 345200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the user username",
+        "description": "",
+        "id": "facebook-application-automation-script;verify-the-user-username;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 117300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 529479500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Divya\" in the username feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Divya",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_username_feild(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235462300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the \"1234\" in the password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_password_feild(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@fb"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User launch the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4807720200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the facebook application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_facebook_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 155800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify the user username",
+        "description": "",
+        "id": "facebook-application-automation-script;verify-the-user-username;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 125100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 235359800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Sneha\" in the username feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sneha",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_username_feild(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226709800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the \"234567890\" in the password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "234567890",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_password_feild(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@fb"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User launch the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2623851500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the facebook application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_facebook_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 138800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify the user username",
+        "description": "",
+        "id": "facebook-application-automation-script;verify-the-user-username;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 104500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 423160300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Deepika\" in the username feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepika",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_username_feild(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234939100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the \"234567\" in the password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "234567",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_password_feild(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@fb"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook application automation script",
+    "description": "",
+    "id": "facebook-application-automation-script",
+    "keyword": "Feature",
+    "uri": "FacebookLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@fb"
+      }
+    ]
+  }
+]
